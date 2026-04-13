@@ -1,2 +1,4 @@
-# EinoValtanen.github.io
-Portfolio
+Portfolio Eino Valtanen
+---
+https://yamooza.github.io/
+---
