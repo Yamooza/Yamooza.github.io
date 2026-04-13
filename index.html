@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eino Juhani Valtanen - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Eino Valtanen</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Koti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Tietoja</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projektit</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Yhteystiedot</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span>Eino Juhani</span>
+                    <span>Valtanen</span>
+                </h1>
+                <p class="hero-subtitle">Unity & C# Pelikehittäjä</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Projektit</a>
+                    <a href="https://github.com/Yamooza" class="btn btn-secondary" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tietoja minusta</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Olen ohjelmistokehityksestä kiinnostunut tieto- ja viestintätekniikan opiskelija, jolla on käytännön kokemusta Unity-pelinkehityksestä ja C#-ohjelmoinnista. Olen toteuttanut projekteja sekä kotimaisissa että kansainvälisissä tiimeissä.</p>
+                    <p>Kiinnostunut kehittämään osaamistani erityisesti <strong>pelinkehityksessä</strong> ja <strong>ohjelmoinnissa</strong> sekä oppimaan moderneja kehitystyökaluja ja käytäntöjä.</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-unity"></i>
+                        <h3>Unity</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-microsoft"></i>
+                        <h3>C#</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Visual Studio</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projektit</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Icy North Games – Opetuspeli</h3>
+                        <p>Kehitin Unity-pelin osana 2 kuukauden projektia. Vastasin pelin ohjelmoinnista käyttäen C#:ää. Toteutin pelimekaniikkoja, kartan rakennusta, visuaalisia elementtejä, tarinaa ja dialogia sekä interaktiivisia toimintoja.</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Erasmus+ Peliprojekti (Gran Canaria)</h3>
+                        <p>Kehitin pelin kansainvälisessä tiimissä 2 viikon projektissa. Käytin Unitya ja C#:ää pelilogiikan toteuttamiseen ja Piskel sprite editoria grafiikoiden piirtämiseen. Työskentelin englanniksi monikulttuurisessa ympäristössä.</p>
+                        <div class="project-tech">
+                            <span>Unity</span>
+                            <span>C#</span>
+                            <span>Piskel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tietokanta ja nettisivu projektit</h3>
+                        <p>Kehitin simppelin nettisivun käyttäen tietokantoja. Käytin SQL Server Management Studio 20, Node.js sekä Visual Studio Code. Suunnittelin nettisivun, toteutin tietokannan ja loin sivun johon voi lisätä tuotteita ja kuvia.</p>
+                        <div class="project-tech">
+                            <span>SQL</span>
+                            <span>Node.js</span>
+                            <span>VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Yhteystiedot</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>040 500 3624</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>einovalta@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-school"></i>
+                        <span>eino.valtanen@student.careeria.fi</span>
+                    </div>
+                </div>
+                <div class="contact-links">
+                    <a href="https://github.com/Yamooza" class="contact-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Eino Juhani Valtanen. Kaikki oikeudet pidätetään.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
